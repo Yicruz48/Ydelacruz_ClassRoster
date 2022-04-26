@@ -16,7 +16,10 @@ Here is link to the API endpoint for the _Collection_ for roster Spring 2022 Stu
 https://v1.nocodeapi.com/pmanikoth/webflow/wtzODovSIJsRXhZg
 
 ## Sources
-Codepen Gallery Template: 
+* Used css-tricks / w3schools as resources
+* 
+
+
 
 ## Why Does This Exist? 
 Webflow (and many others) have a no-code CMS, and GUI for designing the templates. Webflow (and many others) also have an API that is accessible as a _headless CMS_. 
