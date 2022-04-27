@@ -24,7 +24,8 @@ body {
   grid-template-rows: repeat(4, 1fr);
 
   /* Grid Gap */
-  grid-gap: 1rem;
+row-gap: 3em;
+column-gap: 1em;
 }
 
 /* Adjusting Gallery images and captions */
@@ -48,11 +49,14 @@ body {
 
 .gallery figcaption {
   text-align: center;
-  font-size: 1.5em;
-  color: white;
-  background: rgba(0, 0, 0, 0.46);
+  font-size: 1em;
+  color: #93A716;
   position: absolute;
-  bottom: 0;
   left: 0;
   width: 100%;
+  padding-top: 1em;
+}
+
+img:hover{
+  filter: saturate(1.5);
 }
