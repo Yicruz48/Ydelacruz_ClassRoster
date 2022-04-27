@@ -12,7 +12,11 @@ figcaption {
 
 body {
   background-color: #f6f6f6;
-  margin: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 4rem;
+  
 }
 
 .gallery {
@@ -25,7 +29,7 @@ body {
 
   /* Grid Gap */
 row-gap: 3em;
-column-gap: 1em;
+column-gap: 2em;
 }
 
 /* Adjusting Gallery images and captions */
@@ -58,5 +62,21 @@ column-gap: 1em;
 }
 
 img:hover{
-  filter: saturate(1.5);
+  filter: saturate(1.75);
+  transform: scale(1.02);
+  transition: .8sec;
+}
+
+@media (max-width:800px){
+  .gallery{
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  }
+}
+
+@media (max-width:600px){
+  .gallery{
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr);
+  }
 }
